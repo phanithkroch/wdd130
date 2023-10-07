@@ -5,10 +5,10 @@ body {
 nav a {
     text-align: center;
 }
-#hero-msg h1 {
+h1 {
     text-align: center;
 }
-#hero-msg h4 {
+h4 {
     text-align: center;
 }
 .button-box {
