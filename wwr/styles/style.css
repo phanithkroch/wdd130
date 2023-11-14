@@ -12,6 +12,10 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+#content2 {
+    max-width: 1600px;
+    margin: auto;
+}
 body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 22px;
@@ -24,6 +28,7 @@ nav a {
 h1 {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration-line: underline;
 }
 h4 {
     text-align: center;
@@ -41,7 +46,7 @@ main section {
     grid-row: 4/9;
 }
 body {
-    background-color: burlywood;
+    background-color: rgba(0, 0, 0, 0.163);
 }
 .h2 {
     margin: 0;
@@ -81,8 +86,16 @@ nav a:hover {
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
 }
+.msg-2 {
+    background-color: rgb(233, 165, 7);
+    line-height: 1.5em;
+    padding: 16px;
+    grid-column: 7/10;
+    grid-row: 5/7;
+    box-shadow: 5px 5px 10px #6f7364;
+}
 footer {
-    background-color: #38e7ea;
+    background-color: rgb(214, 168, 0);
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -99,7 +112,7 @@ h4 {
     color: #6B0504;
 }
 .msg h2 {
-    color:rgb(254, 253, 253)
+    color:rgb(0, 0, 0)
 }
 .logo {
     width: 80px;
@@ -113,7 +126,7 @@ h4 {
     width: 100%;
 }
 footer a {
-    text-align: center;
+    text-align: bottom;
     color: #6B0504;
     text-decoration: none;
 }
@@ -136,7 +149,7 @@ footer .social img {
     padding-top: 15px;
 }
 .rivers-card, .camping-card, .rapids-card {
-    margin: 200px 0;
+    margin: 100px 0;
 
 }
 .card-img {
@@ -173,20 +186,23 @@ main {
     display: grid;
     grid-template-columns: 1/10;
 }
-.card-img, .mountains {
+.card-img, .mountains, {
     width: 100%;
 }
 .rivers-card {
     grid-column: 2/4;
     grid-row: 2/3;
+    padding: 10px;
 }
 .camping-card {
     grid-column: 5/7;
     grid-row: 2/3;
+    padding: 10px;
 }
 .rapids-card {
     grid-column: 8/10;
     grid-row: 2/3;
+    padding: 10px;
 }
 .mountains {
     width: 100%;
@@ -195,8 +211,14 @@ main {
     box-shadow: 5px 5px 10px #353232;
     margin-left: 30px;
 }
+.mountains-2 {
+    width: 100%;
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #353232;
+    margin-left: 30px;
+}
 .card-img:hover {
-    opacity: .6;
     transform: scale(1.1);
 }
 @media screen and (max-width: 900px) {
@@ -229,7 +251,7 @@ main {
         width: 60%;
     }
     #background {
-        display: none;
+        display:grid;
     }
     .mountains, .msg {
         width: 80%;
