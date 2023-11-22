@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 50px auto;
-    background-color: rgb(255, 183, 89);
+    margin: 0px auto;
+    background-color: #b8eae7;
 }
 header {
     background-color: #333;
@@ -31,12 +31,12 @@ main {
     
 section {
     margin-bottom: 0px;
-    padding: 50px;
+    padding: 1em;
+    border-style: groove;
 
 }
 h2 {
     margin-top: 0;
-    text-decoration: underline;
     color: brown;
     text-align: left;
 
@@ -48,8 +48,8 @@ ul {
 }
 h3 {
     margin-top: 0px;
-    color: cadetblue;
-    text-align: center;
+    color: rgb(170, 26, 0);
+    text-align:justify;
 }
 p {
     text-align: left;
@@ -95,7 +95,7 @@ div.gallery img {
 footer {
     background-color: rgb(255, 255, 255);
     padding: 25px 50px;
-    margin-top: 600px;
+    margin-top: 500px;
     display: flex;
     justify-content: space-around;
     align-items: bottom center;
