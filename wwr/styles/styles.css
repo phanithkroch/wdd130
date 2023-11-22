@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px auto;
+    background-color: rgb(255, 183, 89);
+}
+header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+    margin: 10;
+    padding: 0;
+    display: flex;
+}
+nav li {
+    margin: 0 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+main {
+    padding: 100px;
+    margin: auto;
+}
+    
+section {
+    margin-bottom: 0px;
+    padding: 50px;
+
+}
+h2 {
+    margin-top: 0;
+    text-decoration: underline;
+    color: brown;
+    text-align: left;
+
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    margin-top: 0px;
+    color: cadetblue;
+    text-align: center;
+}
+p {
+    text-align: left;
+    display: grid;
+}
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+form input, form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+form button[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+div.gallery {
+  margin: 5px;
+  border: 2px solid #5d5b5b;
+  float: left;
+  width: 200px;
+}
+
+div.gallery:hover {
+  border: 2px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+footer {
+    background-color: rgb(255, 255, 255);
+    padding: 25px 50px;
+    margin-top: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: bottom center;
+    text-align: bottom;
+    color: #000000;
+    text-decoration: none;
+}
+.left-img {
+    float: left;
+}
+.faq-paragraph-1 {
+    align-items: center;
+}
